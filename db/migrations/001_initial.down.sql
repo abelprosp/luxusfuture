@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS refaturamentos;
+DROP TABLE IF EXISTS itens_fatura;
+DROP TABLE IF EXISTS faturas;
+DROP TABLE IF EXISTS planos_tarifas;
+DROP TABLE IF EXISTS linhas;
+DROP TABLE IF EXISTS clientes;
+DROP TABLE IF EXISTS operadoras;
+DROP TABLE IF EXISTS organizacoes;

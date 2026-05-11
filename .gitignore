@@ -1,0 +1,8 @@
+bin/
+backend/data/
+frontend/.next/
+frontend/node_modules/
+*.exe
+*.log
+backend/.env
+frontend/.env.local

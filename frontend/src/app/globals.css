@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --luxus-bg: #f2f2f0;
+  --luxus-primary: #5d7365;
+  --luxus-primary-dark: #4a5e52;
+  --luxus-card: #ffffff;
+  --luxus-text: #2c2c2c;
+  --luxus-muted: #6b7280;
+  --luxus-border: #e8e8e4;
+  --luxus-success: #22c55e;
+  --luxus-warning: #f97316;
+  --luxus-danger: #ef4444;
+  --luxus-pill-up: #fbcfe8;
+  --font-ui: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-ui);
+  @apply min-h-screen bg-[var(--luxus-bg)] text-[var(--luxus-text)] antialiased;
+}
+
+:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-[var(--luxus-primary)];
+}
+
+.luxus-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.luxus-scrollbar::-webkit-scrollbar-thumb {
+  background: #c4c9c2;
+  border-radius: 999px;
+}
